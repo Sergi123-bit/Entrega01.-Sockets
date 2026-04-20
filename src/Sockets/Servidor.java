@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Servidor {
     // Si el número de argumentos es menor a 2, detente
     public static void main(String[] args) {
+        // args.length nos dice cuántas palabras hemos escrito
         if (args.length < 2) {
             System.out.println("Uso: Servidor <PORT_SERVIDOR> <PARAULA_CLAU_SERVIDOR>");
             return;
